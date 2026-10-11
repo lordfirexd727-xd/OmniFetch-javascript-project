@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mission 1 (⭐)</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <h2>🧠 Information Generator v1.0  </h2>
+        <p> Search using commands </p>
+    </div>
+    <div class="input">
+    <input type="text" id="username" name="username" placeholder="Enter your Information">
+    <button>Click !</button>
+    </div>
+    <div class="copyarea">
+       <h3>📋 Commands</h3>
+  <ul>
+     <li>
+          <span>🦊 pokemon pikachu</span>
+    <button data-command="pokemon pikachu">📋</button>
+     </li>
+     <li>
+          <span>👤 github octocat </span>
+    <button data-command="github">📋</button>
+     </li>
+     <li>
+          <span>🐱 catfact</span>
+    <button data-command="catfact">📋</button>
+     </li>
+     <li>
+          <span>😂 joke</span>
+    <button data-command="joke">📋</button>
+     </li>
+     <li>
+          <span>🎥 movie </span>
+    <button data-command="movie">📋</button>
+     </li>
+  </ul>
+    </div>
+    <div class="result">
+    <h2 id="result"></h2>
+   <img id="profil" width="400" height="300">
+   </div>
+<script src="script.js"></script>
+</body>
+</html>

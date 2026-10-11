@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:  #FFF8DC;
+    
+}
+.hero{
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.input input{
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+.input input:hover{
+    border: 1px solid black;
+}
+.input button{
+    padding: 10px 20px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.input button:hover{
+    background-color: darkorange;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.copyarea ul li{
+    display: flex;
+    justify-content: space-between;
+}
+.result{
+    background-color: orange;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.result img{
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    display: flex;
+}
+.result #result{
+    margin-top: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
